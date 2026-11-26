@@ -1,0 +1,1985 @@
+{
+ "meta": {
+  "title": "Furniture HS 2022 reference: headings 9401–9404",
+  "edition": "HS 2022",
+  "verificationDate": "2026-10-29",
+  "scope": [
+   "9401",
+   "9402",
+   "9403",
+   "9404"
+  ],
+  "categoryLabels": {
+   "seating": "Seats and sofas",
+   "furniture": "Other furniture",
+   "medical": "Medical and salon",
+   "parts": "Furniture parts",
+   "bedding": "Mattresses and bedding"
+  },
+  "materialLabels": {
+   "wood": "Wood",
+   "metal": "Metal",
+   "plastic": "Plastics",
+   "bamboo": "Bamboo",
+   "rattan": "Natural rattan",
+   "rubber": "Cellular rubber",
+   "spring": "Springs",
+   "textile": "Textile / fibre",
+   "other": "Other materials",
+   "various": "Material varies"
+  }
+ },
+ "rows": [
+  {
+   "code": "9401.10",
+   "heading": "9401",
+   "title": "Aircraft seats",
+   "category": "Seats and seat parts",
+   "groups": [
+    "specialist-seats"
+   ],
+   "officialDescription": "Seats of a kind used for aircraft",
+   "products": [
+    "Seats designed for aircraft"
+   ],
+   "aliases": [
+    "aircraft seat",
+    "airplane seat",
+    "aeroplane seat",
+    "airline seat",
+    "aviation seating",
+    "飞机座椅",
+    "chair",
+    "chairs",
+    "椅子"
+   ],
+   "material": "Any material; aircraft use determines this branch",
+   "condition": "A seat of a kind used for aircraft; distinguish complete seats from separate parts.",
+   "note": "An aircraft-styled lounge chair is not classified here merely because of its appearance.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "various"
+   ]
+  },
+  {
+   "code": "9401.20",
+   "heading": "9401",
+   "title": "Motor-vehicle seats",
+   "category": "Seats and seat parts",
+   "groups": [
+    "specialist-seats"
+   ],
+   "officialDescription": "Seats of a kind used for motor vehicles",
+   "products": [
+    "Seats designed for motor vehicles"
+   ],
+   "aliases": [
+    "car seat",
+    "vehicle seat",
+    "automotive seat",
+    "truck seat",
+    "bus seat",
+    "汽车座椅",
+    "chair",
+    "chairs",
+    "椅子"
+   ],
+   "material": "Any material; motor-vehicle use determines this branch",
+   "condition": "A seat of a kind used for motor vehicles; confirm the actual construction and use.",
+   "note": "Do not assume a child safety seat uses this branch. National definitions and rulings must be checked.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "various"
+   ]
+  },
+  {
+   "code": "9401.31",
+   "heading": "9401",
+   "title": "Wooden swivel seats with height adjustment",
+   "category": "Seats and seat parts",
+   "groups": [
+    "office-seats",
+    "chairs-stools"
+   ],
+   "officialDescription": "Swivel seats with variable height adjustment: Of wood",
+   "products": [
+    "Wooden swivel chairs with variable height adjustment",
+    "Wooden height-adjustable swivel stools"
+   ],
+   "aliases": [
+    "office chair",
+    "task chair",
+    "swivel chair",
+    "adjustable chair",
+    "bar stool",
+    "counter stool",
+    "木制转椅",
+    "办公椅",
+    "chair",
+    "chairs",
+    "椅子",
+    "desk chair",
+    "bar stools",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chair",
+    "dining chairs",
+    "餐椅"
+   ],
+   "material": "Wood",
+   "condition": "Both swivel and variable height adjustment are required; assess whether the seat is of wood.",
+   "note": "A swivel-only or height-adjustable-only chair does not automatically meet this branch. Upholstery does not remove the need to check this special seat category first.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9401.39",
+   "heading": "9401",
+   "title": "Other swivel seats with height adjustment",
+   "category": "Seats and seat parts",
+   "groups": [
+    "office-seats",
+    "chairs-stools"
+   ],
+   "officialDescription": "Swivel seats with variable height adjustment: Other",
+   "products": [
+    "Non-wooden swivel office chairs with variable height adjustment",
+    "Non-wooden height-adjustable swivel stools"
+   ],
+   "aliases": [
+    "office chair",
+    "task chair",
+    "ergonomic chair",
+    "gaming chair",
+    "desk chair",
+    "swivel chair",
+    "adjustable chair",
+    "bar stool",
+    "办公椅",
+    "转椅",
+    "chair",
+    "chairs",
+    "椅子",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chair",
+    "dining chairs",
+    "餐椅"
+   ],
+   "material": "Other than wood",
+   "condition": "Both swivel and variable height adjustment are required; exclude the wooden branch.",
+   "note": "A loose gas-lift cylinder is not a complete seat. Classify a replacement mechanism on its own facts.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "metal",
+    "plastic",
+    "bamboo",
+    "rattan",
+    "other"
+   ]
+  },
+  {
+   "code": "9401.41",
+   "heading": "9401",
+   "title": "Wooden seats convertible into beds",
+   "category": "Seats and seat parts",
+   "groups": [
+    "sofas",
+    "beds",
+    "convertible-seats"
+   ],
+   "officialDescription": "Seats other than garden seats or camping equipment, convertible into beds: Of wood",
+   "products": [
+    "Wooden seats convertible into beds",
+    "Wooden sofa beds meeting this branch"
+   ],
+   "aliases": [
+    "sofa bed",
+    "sofabed",
+    "sleeper sofa",
+    "convertible sofa",
+    "futon sofa",
+    "pull out sofa",
+    "click clack sofa",
+    "沙发床",
+    "sofa",
+    "couch",
+    "settee",
+    "sectional",
+    "沙发",
+    "bed",
+    "beds",
+    "床",
+    "chair",
+    "chairs",
+    "椅子",
+    "fabric sofa",
+    "leather sofa",
+    "布艺沙发",
+    "真皮沙发"
+   ],
+   "material": "Wood",
+   "condition": "A seat convertible into a bed, of wood; this branch excludes garden seats and camping equipment.",
+   "note": "The word futon may describe a convertible seat or a separate mattress. Determine which article is imported.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9401.49",
+   "heading": "9401",
+   "title": "Other seats convertible into beds",
+   "category": "Seats and seat parts",
+   "groups": [
+    "sofas",
+    "beds",
+    "convertible-seats"
+   ],
+   "officialDescription": "Seats other than garden seats or camping equipment, convertible into beds: Other",
+   "products": [
+    "Non-wooden seats convertible into beds",
+    "Metal sofa beds meeting this branch"
+   ],
+   "aliases": [
+    "sofa bed",
+    "sofabed",
+    "sleeper sofa",
+    "convertible sofa",
+    "futon sofa",
+    "pull out sofa",
+    "click clack sofa",
+    "沙发床",
+    "sofa",
+    "couch",
+    "settee",
+    "sectional",
+    "沙发",
+    "bed",
+    "beds",
+    "床",
+    "chair",
+    "chairs",
+    "椅子",
+    "fabric sofa",
+    "leather sofa",
+    "布艺沙发",
+    "真皮沙发"
+   ],
+   "material": "Other than wood",
+   "condition": "A seat convertible into a bed, other than of wood; this branch excludes garden seats and camping equipment.",
+   "note": "A folding camping bed is not classified here merely because it folds or can be sat on.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "metal",
+    "plastic",
+    "bamboo",
+    "rattan",
+    "other"
+   ]
+  },
+  {
+   "code": "9401.52",
+   "heading": "9401",
+   "title": "Bamboo seats",
+   "category": "Seats and seat parts",
+   "groups": [
+    "chairs-stools",
+    "sofas",
+    "outdoor"
+   ],
+   "officialDescription": "Seats of cane, osier, bamboo or similar materials: Of bamboo",
+   "products": [
+    "Seats of bamboo",
+    "Bamboo chairs or benches meeting this branch"
+   ],
+   "aliases": [
+    "bamboo chair",
+    "bamboo bench",
+    "bamboo stool",
+    "bamboo sofa",
+    "bamboo lounge chair",
+    "竹椅",
+    "sofa",
+    "couch",
+    "settee",
+    "sectional",
+    "沙发",
+    "chair",
+    "chairs",
+    "椅子",
+    "bar stool",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chair",
+    "dining chairs",
+    "餐椅",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Bamboo",
+   "condition": "The article must be a bamboo seat within this material branch.",
+   "note": "Check the actual structural materials; a bamboo finish or bamboo-look pattern does not establish classification.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "bamboo"
+   ]
+  },
+  {
+   "code": "9401.53",
+   "heading": "9401",
+   "title": "Rattan seats",
+   "category": "Seats and seat parts",
+   "groups": [
+    "chairs-stools",
+    "sofas",
+    "outdoor"
+   ],
+   "officialDescription": "Seats of cane, osier, bamboo or similar materials: Of rattan",
+   "products": [
+    "Natural-rattan seats",
+    "Natural-rattan chairs or settees meeting this branch"
+   ],
+   "aliases": [
+    "rattan chair",
+    "rattan sofa",
+    "rattan seat",
+    "rattan lounge chair",
+    "cane chair",
+    "wicker chair",
+    "藤椅",
+    "藤沙发",
+    "sofa",
+    "couch",
+    "settee",
+    "sectional",
+    "沙发",
+    "chair",
+    "chairs",
+    "椅子",
+    "bar stool",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chair",
+    "dining chairs",
+    "餐椅",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Natural rattan",
+   "condition": "The seat must be of rattan within this material branch; identify the frame and other components.",
+   "note": "Wicker describes a construction method. PE rattan and resin wicker are not natural rattan; do not use this code from the sales name alone.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "rattan"
+   ]
+  },
+  {
+   "code": "9401.59",
+   "heading": "9401",
+   "title": "Seats of other cane-like materials",
+   "category": "Seats and seat parts",
+   "groups": [
+    "chairs-stools",
+    "sofas",
+    "outdoor"
+   ],
+   "officialDescription": "Seats of cane, osier, bamboo or similar materials: Other",
+   "products": [
+    "Seats of osier or other qualifying similar materials, other than bamboo or rattan"
+   ],
+   "aliases": [
+    "osier chair",
+    "willow chair",
+    "woven chair",
+    "cane chair",
+    "wicker chair",
+    "woven bench",
+    "柳编椅",
+    "sofa",
+    "couch",
+    "settee",
+    "sectional",
+    "沙发",
+    "chair",
+    "chairs",
+    "椅子",
+    "bar stool",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chair",
+    "dining chairs",
+    "餐椅",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Cane, osier or similar materials other than bamboo or rattan",
+   "condition": "Identify the actual material and confirm this branch applies before selecting its residual subheading.",
+   "note": "A woven surface on a wooden or metal frame needs a construction review. The term wicker is insufficient.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "other"
+   ]
+  },
+  {
+   "code": "9401.61",
+   "heading": "9401",
+   "title": "Upholstered seats with wooden frames",
+   "category": "Seats and seat parts",
+   "groups": [
+    "sofas",
+    "chairs-stools",
+    "dining",
+    "living-room"
+   ],
+   "officialDescription": "Other seats, with wooden frames: Upholstered",
+   "products": [
+    "Upholstered wooden-frame sofas",
+    "Upholstered wooden-frame armchairs",
+    "Upholstered wooden-frame dining chairs"
+   ],
+   "aliases": [
+    "sofa",
+    "couch",
+    "settee",
+    "loveseat",
+    "love seat",
+    "sectional",
+    "armchair",
+    "recliner",
+    "dining chair",
+    "accent chair",
+    "fabric sofa",
+    "leather sofa",
+    "沙发",
+    "木框软包椅",
+    "chair",
+    "chairs",
+    "椅子",
+    "office chair",
+    "task chair",
+    "desk chair",
+    "办公椅",
+    "布艺沙发",
+    "真皮沙发",
+    "bar stool",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chairs",
+    "餐椅",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Wooden frame; upholstery may vary",
+   "condition": "An upholstered seat with a wooden frame that is not classified in an earlier special-seat branch.",
+   "note": "Cover material or visible metal legs alone do not identify the frame. Convertible and height-adjustable swivel seats require the earlier branches to be checked.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9401.69",
+   "heading": "9401",
+   "title": "Other seats with wooden frames",
+   "category": "Seats and seat parts",
+   "groups": [
+    "chairs-stools",
+    "sofas",
+    "dining",
+    "outdoor"
+   ],
+   "officialDescription": "Other seats, with wooden frames: Other",
+   "products": [
+    "Unupholstered wooden-frame chairs",
+    "Unupholstered wooden-frame benches or stools"
+   ],
+   "aliases": [
+    "wooden chair",
+    "wood chair",
+    "dining chair",
+    "bench",
+    "stool",
+    "wooden bench",
+    "rocking chair",
+    "folding chair",
+    "wooden sofa",
+    "木椅",
+    "木凳",
+    "sofa",
+    "couch",
+    "settee",
+    "sectional",
+    "沙发",
+    "chair",
+    "chairs",
+    "椅子",
+    "office chair",
+    "task chair",
+    "desk chair",
+    "办公椅",
+    "bar stool",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chairs",
+    "餐椅",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Wooden frame",
+   "condition": "A wooden-frame seat outside the earlier special-seat branches and outside upholstered seats.",
+   "note": "Explain how any cushioning is fitted and presented. A photograph or the phrase chair with cushion is insufficient to settle upholstery treatment.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9401.71",
+   "heading": "9401",
+   "title": "Upholstered seats with metal frames",
+   "category": "Seats and seat parts",
+   "groups": [
+    "sofas",
+    "chairs-stools",
+    "dining",
+    "living-room"
+   ],
+   "officialDescription": "Other seats, with metal frames: Upholstered",
+   "products": [
+    "Upholstered metal-frame sofas",
+    "Upholstered metal-frame chairs",
+    "Upholstered metal-frame benches"
+   ],
+   "aliases": [
+    "sofa",
+    "couch",
+    "settee",
+    "loveseat",
+    "sectional",
+    "armchair",
+    "recliner",
+    "dining chair",
+    "accent chair",
+    "fabric sofa",
+    "leather sofa",
+    "metal chair",
+    "沙发",
+    "金属框软包椅",
+    "chair",
+    "chairs",
+    "椅子",
+    "office chair",
+    "task chair",
+    "desk chair",
+    "办公椅",
+    "布艺沙发",
+    "真皮沙发",
+    "bar stool",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chairs",
+    "餐椅",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Metal frame; upholstery may vary",
+   "condition": "An upholstered metal-frame seat outside the earlier special-seat branches.",
+   "note": "Confirm the frame rather than the legs or trim. A height-adjustable swivel office chair may belong in 9401.39 instead.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "metal"
+   ]
+  },
+  {
+   "code": "9401.79",
+   "heading": "9401",
+   "title": "Other seats with metal frames",
+   "category": "Seats and seat parts",
+   "groups": [
+    "chairs-stools",
+    "sofas",
+    "dining",
+    "outdoor"
+   ],
+   "officialDescription": "Other seats, with metal frames: Other",
+   "products": [
+    "Unupholstered metal-frame chairs",
+    "Unupholstered metal-frame benches or stools"
+   ],
+   "aliases": [
+    "metal chair",
+    "steel chair",
+    "aluminium chair",
+    "aluminum chair",
+    "cafe chair",
+    "stacking chair",
+    "folding chair",
+    "metal bench",
+    "outdoor chair",
+    "PE rattan chair",
+    "resin wicker chair",
+    "金属椅",
+    "户外椅",
+    "sofa",
+    "couch",
+    "settee",
+    "sectional",
+    "沙发",
+    "chair",
+    "chairs",
+    "椅子",
+    "office chair",
+    "task chair",
+    "desk chair",
+    "办公椅",
+    "bar stool",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chair",
+    "dining chairs",
+    "餐椅",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Metal frame",
+   "condition": "A metal-frame seat outside the earlier special-seat branches and outside upholstered seats.",
+   "note": "PE-rattan seating with a metal frame needs its construction reviewed; the sales name alone does not establish this result. Separately presented cushions need their own assessment.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "metal"
+   ]
+  },
+  {
+   "code": "9401.80",
+   "heading": "9401",
+   "title": "Other seats",
+   "category": "Seats and seat parts",
+   "groups": [
+    "chairs-stools",
+    "sofas",
+    "outdoor"
+   ],
+   "officialDescription": "Other seats",
+   "products": [
+    "Plastic seats not covered by an earlier branch",
+    "Other seats not covered by an earlier branch"
+   ],
+   "aliases": [
+    "plastic chair",
+    "moulded chair",
+    "molded chair",
+    "acrylic chair",
+    "resin chair",
+    "plastic stool",
+    "stone bench",
+    "塑料椅",
+    "石凳",
+    "sofa",
+    "couch",
+    "settee",
+    "sectional",
+    "沙发",
+    "chair",
+    "chairs",
+    "椅子",
+    "office chair",
+    "task chair",
+    "desk chair",
+    "办公椅",
+    "fabric sofa",
+    "leather sofa",
+    "布艺沙发",
+    "真皮沙发",
+    "bar stool",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳",
+    "dining chair",
+    "dining chairs",
+    "餐椅",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Other materials, subject to the preceding seat branches",
+   "condition": "Use only after excluding the more specific branches of 9401 and furniture of 9402.",
+   "note": "Mixed-material seating must be assessed using its construction and the interpretation rules. This is not a catch-all for unidentified chairs.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "seating",
+   "categoryKeys": [
+    "seating"
+   ],
+   "materials": [
+    "plastic",
+    "other"
+   ]
+  },
+  {
+   "code": "9401.91",
+   "heading": "9401",
+   "title": "Wooden parts of seats",
+   "category": "Seats and seat parts",
+   "groups": [
+    "parts",
+    "seat-parts"
+   ],
+   "officialDescription": "Parts: Of wood",
+   "products": [
+    "Identifiable wooden seat frames presented separately",
+    "Identifiable wooden components of seats presented separately"
+   ],
+   "aliases": [
+    "chair part",
+    "seat part",
+    "sofa part",
+    "chair frame",
+    "seat frame",
+    "sofa frame",
+    "wooden chair leg",
+    "wooden armrest",
+    "座椅木配件",
+    "furniture parts",
+    "furniture part",
+    "家具配件",
+    "chair parts",
+    "seat parts",
+    "sofa parts",
+    "chair leg",
+    "chair legs",
+    "sofa leg",
+    "sofa legs",
+    "椅子配件",
+    "座椅配件",
+    "沙发配件",
+    "沙发框架",
+    "medical chair part",
+    "medical chair parts",
+    "salon chair part",
+    "salon chair parts",
+    "医疗椅配件",
+    "美容椅配件"
+   ],
+   "material": "Wood",
+   "condition": "An identifiable part of a seat, presented as a part; apply Chapter 94 exclusions and the rules for unassembled complete articles.",
+   "note": "Do not treat a complete flat-packed seat as parts automatically. General-use hardware and separately presented bedding articles are excluded.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "parts",
+   "categoryKeys": [
+    "parts"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9401.99",
+   "heading": "9401",
+   "title": "Other parts of seats",
+   "category": "Seats and seat parts",
+   "groups": [
+    "parts",
+    "seat-parts"
+   ],
+   "officialDescription": "Parts: Other",
+   "products": [
+    "Identifiable non-wooden seat frames presented separately",
+    "Other identifiable non-wooden seat components eligible for this heading"
+   ],
+   "aliases": [
+    "chair part",
+    "seat part",
+    "sofa part",
+    "chair frame",
+    "seat frame",
+    "sofa frame",
+    "metal seat frame",
+    "座椅配件",
+    "furniture parts",
+    "furniture part",
+    "家具配件",
+    "chair parts",
+    "seat parts",
+    "sofa parts",
+    "chair leg",
+    "chair legs",
+    "sofa leg",
+    "sofa legs",
+    "椅子配件",
+    "沙发配件",
+    "沙发框架",
+    "medical chair part",
+    "medical chair parts",
+    "salon chair part",
+    "salon chair parts",
+    "医疗椅配件",
+    "美容椅配件"
+   ],
+   "material": "Other than wood",
+   "condition": "An identifiable seat part outside the wooden branch, subject to exclusions and the condition as imported.",
+   "note": "Gas lifts, castors, hinges, screws and mechanisms require independent classification checks; do not route every chair replacement component to this code.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "parts",
+   "categoryKeys": [
+    "parts"
+   ],
+   "materials": [
+    "metal",
+    "plastic",
+    "bamboo",
+    "rattan",
+    "other"
+   ]
+  },
+  {
+   "code": "9402.10",
+   "heading": "9402",
+   "title": "Qualifying dental and barber chairs, and parts",
+   "category": "Medical and qualifying salon furniture",
+   "groups": [
+    "medical-salon",
+    "specialist-seats",
+    "parts"
+   ],
+   "officialDescription": "Dentists', barbers' or similar chairs and parts thereof",
+   "products": [
+    "Dental chairs within heading 9402",
+    "Barber chairs with the movements required by heading 9402",
+    "Eligible parts of those chairs"
+   ],
+   "aliases": [
+    "dentist chair",
+    "dental chair",
+    "barber chair",
+    "salon chair",
+    "beauty chair",
+    "barber chair part",
+    "牙科椅",
+    "理发椅",
+    "chair",
+    "chairs",
+    "椅子",
+    "furniture parts",
+    "furniture part",
+    "家具配件",
+    "dental chair part",
+    "dental chair parts",
+    "dentist chair part",
+    "dentist chair parts",
+    "barber chair parts",
+    "牙科椅配件",
+    "理发椅配件",
+    "medical chair part",
+    "medical chair parts",
+    "salon chair part",
+    "salon chair parts",
+    "医疗椅配件",
+    "美容椅配件"
+   ],
+   "material": "Any material, within the heading description",
+   "condition": "For barber and similar chairs, check rotating, reclining and elevating movements. Dental chairs incorporating dental appliances are excluded from Chapter 94.",
+   "note": "An ordinary salon waiting chair or a chair described only as a beauty chair is not automatically 9402.10.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "medical",
+   "categoryKeys": [
+    "medical",
+    "parts"
+   ],
+   "materials": [
+    "various"
+   ]
+  },
+  {
+   "code": "9402.90",
+   "heading": "9402",
+   "title": "Other medical furniture, and parts",
+   "category": "Medical and qualifying salon furniture",
+   "groups": [
+    "medical-salon",
+    "beds",
+    "tables",
+    "parts"
+   ],
+   "officialDescription": "Other medical, surgical, dental or veterinary furniture and parts thereof",
+   "products": [
+    "Operating tables within heading 9402",
+    "Examination tables within heading 9402",
+    "Hospital beds with mechanical fittings",
+    "Eligible parts of this furniture"
+   ],
+   "aliases": [
+    "hospital bed",
+    "medical bed",
+    "operating table",
+    "examination table",
+    "surgical table",
+    "veterinary table",
+    "medical furniture",
+    "病床",
+    "检查台",
+    "bed",
+    "beds",
+    "床",
+    "table",
+    "tables",
+    "桌子",
+    "furniture parts",
+    "furniture part",
+    "家具配件",
+    "hospital bed part",
+    "hospital bed parts",
+    "medical bed part",
+    "medical bed parts",
+    "operating table part",
+    "operating table parts",
+    "examination table part",
+    "examination table parts",
+    "病床配件",
+    "检查台配件",
+    "medical chair part",
+    "medical chair parts",
+    "salon chair part",
+    "salon chair parts",
+    "医疗椅配件",
+    "美容椅配件"
+   ],
+   "material": "Any material, within the heading description",
+   "condition": "The product must meet the medical, surgical, dental or veterinary furniture scope of 9402 and fall outside 9402.10.",
+   "note": "Ordinary furniture used in a clinic is not necessarily medical furniture. State special fittings and clinical function.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "medical",
+   "categoryKeys": [
+    "medical",
+    "parts"
+   ],
+   "materials": [
+    "various"
+   ]
+  },
+  {
+   "code": "9403.10",
+   "heading": "9403",
+   "title": "Metal office furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "desks",
+    "storage",
+    "office"
+   ],
+   "officialDescription": "Metal furniture of a kind used in offices",
+   "products": [
+    "Metal office desks",
+    "Metal office filing cabinets",
+    "Metal office storage furniture"
+   ],
+   "aliases": [
+    "desk",
+    "office desk",
+    "computer desk",
+    "work desk",
+    "filing cabinet",
+    "file cabinet",
+    "office cabinet",
+    "metal desk",
+    "办公桌",
+    "文件柜",
+    "desks",
+    "书桌",
+    "table",
+    "tables",
+    "桌子",
+    "cabinet",
+    "cabinets",
+    "柜子"
+   ],
+   "material": "Metal",
+   "condition": "Furniture of a kind used in offices; exclude seating and other headings.",
+   "note": "Office chairs are seats under 9401. A product located in an office is not necessarily designed as office furniture.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "metal"
+   ]
+  },
+  {
+   "code": "9403.20",
+   "heading": "9403",
+   "title": "Other metal furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "beds",
+    "tables",
+    "storage",
+    "outdoor"
+   ],
+   "officialDescription": "Other metal furniture",
+   "products": [
+    "Metal bed frames",
+    "Metal dining or coffee tables",
+    "Metal shelving furniture outside the office branch"
+   ],
+   "aliases": [
+    "bed",
+    "bed frame",
+    "bunk bed",
+    "metal bed",
+    "table",
+    "dining table",
+    "coffee table",
+    "side table",
+    "shelf",
+    "shelving",
+    "cabinet",
+    "wardrobe",
+    "outdoor table",
+    "金属家具",
+    "金属床",
+    "beds",
+    "床",
+    "tables",
+    "桌子",
+    "餐桌",
+    "closet",
+    "衣柜",
+    "cabinets",
+    "柜子",
+    "床架",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Metal",
+   "condition": "Metal furniture outside the office branch, excluding seats and products of other headings.",
+   "note": "Mixed-material tables require a complete construction assessment; metal legs alone do not establish this code. Mattress supports are separately considered under 9404.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "metal"
+   ]
+  },
+  {
+   "code": "9403.30",
+   "heading": "9403",
+   "title": "Wooden office furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "desks",
+    "storage",
+    "office"
+   ],
+   "officialDescription": "Wooden furniture of a kind used in offices",
+   "products": [
+    "Wooden office desks",
+    "Wooden office storage furniture",
+    "Wooden office bookcases"
+   ],
+   "aliases": [
+    "desk",
+    "office desk",
+    "computer desk",
+    "work desk",
+    "writing desk",
+    "office bookcase",
+    "office credenza",
+    "office cabinet",
+    "办公桌",
+    "木办公家具",
+    "desks",
+    "书桌",
+    "table",
+    "tables",
+    "桌子",
+    "cabinet",
+    "cabinets",
+    "柜子"
+   ],
+   "material": "Wood",
+   "condition": "Wooden furniture of a kind used in offices; exclude seating and separately imported parts.",
+   "note": "Confirm the intended furniture function and materials. A domestic side table used occasionally with a laptop does not become office furniture solely by that use.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9403.40",
+   "heading": "9403",
+   "title": "Wooden kitchen furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "kitchen",
+    "storage",
+    "tables"
+   ],
+   "officialDescription": "Wooden furniture of a kind used in the kitchen",
+   "products": [
+    "Wooden kitchen cabinets",
+    "Wooden fitted kitchen units",
+    "Wooden kitchen islands meeting the furniture definition"
+   ],
+   "aliases": [
+    "kitchen cabinet",
+    "kitchen cabinets",
+    "kitchen unit",
+    "kitchen island",
+    "fitted kitchen",
+    "kitchen cupboard",
+    "kitchen furniture",
+    "橱柜",
+    "木制厨房家具",
+    "table",
+    "tables",
+    "桌子",
+    "cabinet",
+    "cabinets",
+    "柜子"
+   ],
+   "material": "Wood",
+   "condition": "Wooden furniture designed for kitchen use, presented as furniture rather than separate parts or unrelated components.",
+   "note": "A bathroom vanity is not kitchen furniture simply because it has a cabinet. Review countertops, appliances and sinks separately when separately presented.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9403.50",
+   "heading": "9403",
+   "title": "Wooden bedroom furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "beds",
+    "storage",
+    "bedroom",
+    "tables"
+   ],
+   "officialDescription": "Wooden furniture of a kind used in the bedroom",
+   "products": [
+    "Wooden bed frames",
+    "Wooden bedroom wardrobes",
+    "Wooden bedside cabinets",
+    "Wooden bedroom dressers"
+   ],
+   "aliases": [
+    "bed",
+    "bed frame",
+    "bunk bed",
+    "wooden bed",
+    "wardrobe",
+    "closet",
+    "dresser",
+    "chest of drawers",
+    "nightstand",
+    "night stand",
+    "bedside table",
+    "bedside cabinet",
+    "dressing table",
+    "床",
+    "衣柜",
+    "床头柜",
+    "beds",
+    "table",
+    "tables",
+    "桌子",
+    "cabinet",
+    "cabinets",
+    "柜子",
+    "床架"
+   ],
+   "material": "Wood",
+   "condition": "Wooden furniture of a kind used in the bedroom, excluding mattress supports and bedding.",
+   "note": "A separate headboard or component needs review as furniture or a part. Do not assign one code to the bed frame, mattress and loose bedding without reviewing how they are presented.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9403.60",
+   "heading": "9403",
+   "title": "Other wooden furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "tables",
+    "storage",
+    "living-room",
+    "dining",
+    "bathroom"
+   ],
+   "officialDescription": "Other wooden furniture",
+   "products": [
+    "Wooden dining and coffee tables",
+    "Wooden sideboards or living-room cabinets",
+    "Wooden bookcases outside the office branch",
+    "Wooden vanity cabinets meeting the furniture definition"
+   ],
+   "aliases": [
+    "table",
+    "dining table",
+    "coffee table",
+    "side table",
+    "console table",
+    "sideboard",
+    "buffet",
+    "TV stand",
+    "TV unit",
+    "media console",
+    "bookcase",
+    "bookshelf",
+    "cabinet",
+    "bathroom vanity",
+    "vanity cabinet",
+    "木餐桌",
+    "浴室柜",
+    "tables",
+    "桌子",
+    "餐桌",
+    "cabinets",
+    "柜子",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Wood",
+   "condition": "Wooden furniture outside the office, kitchen and bedroom branches; exclude seats and separately imported parts.",
+   "note": "For a vanity combined with a basin or a table combining wood and stone, review the whole article and the applicable interpretation rules. The visible top or base alone is insufficient.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9403.70",
+   "heading": "9403",
+   "title": "Plastic furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "tables",
+    "storage",
+    "desks",
+    "beds",
+    "outdoor"
+   ],
+   "officialDescription": "Furniture of plastics",
+   "products": [
+    "Plastic tables",
+    "Plastic storage furniture",
+    "Plastic furniture other than seats"
+   ],
+   "aliases": [
+    "table",
+    "plastic table",
+    "plastic cabinet",
+    "plastic shelf",
+    "plastic storage",
+    "acrylic table",
+    "plastic bed",
+    "plastic desk",
+    "塑料家具",
+    "bed",
+    "beds",
+    "床",
+    "desk",
+    "desks",
+    "书桌",
+    "办公桌",
+    "tables",
+    "桌子",
+    "dining table",
+    "餐桌",
+    "wardrobe",
+    "closet",
+    "衣柜",
+    "cabinet",
+    "cabinets",
+    "柜子",
+    "bed frame",
+    "床架",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Plastics",
+   "condition": "Furniture of plastics within 9403; exclude seats and separately imported parts.",
+   "note": "Plastic chairs belong in the seat heading. Resin wicker over a metal frame requires a material and construction assessment.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "plastic"
+   ]
+  },
+  {
+   "code": "9403.82",
+   "heading": "9403",
+   "title": "Bamboo furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "tables",
+    "storage",
+    "desks",
+    "beds",
+    "outdoor"
+   ],
+   "officialDescription": "Furniture of other materials, including cane, osier, bamboo or similar materials: Of bamboo",
+   "products": [
+    "Bamboo tables",
+    "Bamboo shelving or cabinets",
+    "Bamboo furniture other than seats"
+   ],
+   "aliases": [
+    "bamboo table",
+    "bamboo cabinet",
+    "bamboo shelf",
+    "bamboo bookcase",
+    "bamboo bed",
+    "bamboo desk",
+    "竹家具",
+    "bed",
+    "beds",
+    "床",
+    "desk",
+    "desks",
+    "书桌",
+    "办公桌",
+    "table",
+    "tables",
+    "桌子",
+    "dining table",
+    "餐桌",
+    "wardrobe",
+    "closet",
+    "衣柜",
+    "cabinet",
+    "cabinets",
+    "柜子",
+    "bed frame",
+    "床架",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Bamboo",
+   "condition": "Furniture of bamboo within 9403; exclude seats and separately imported parts.",
+   "note": "Bamboo chairs have a seat branch. State whether the product is bamboo, wood with bamboo decoration, or a composite.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "bamboo"
+   ]
+  },
+  {
+   "code": "9403.83",
+   "heading": "9403",
+   "title": "Rattan furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "tables",
+    "storage",
+    "desks",
+    "beds",
+    "outdoor"
+   ],
+   "officialDescription": "Furniture of other materials, including cane, osier, bamboo or similar materials: Of rattan",
+   "products": [
+    "Natural-rattan tables",
+    "Natural-rattan storage furniture",
+    "Natural-rattan furniture other than seats"
+   ],
+   "aliases": [
+    "rattan table",
+    "rattan cabinet",
+    "rattan shelf",
+    "rattan bed",
+    "rattan desk",
+    "wicker table",
+    "wicker cabinet",
+    "藤家具",
+    "bed",
+    "beds",
+    "床",
+    "desk",
+    "desks",
+    "书桌",
+    "办公桌",
+    "table",
+    "tables",
+    "桌子",
+    "dining table",
+    "餐桌",
+    "wardrobe",
+    "closet",
+    "衣柜",
+    "cabinet",
+    "cabinets",
+    "柜子",
+    "bed frame",
+    "床架",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Natural rattan",
+   "condition": "Furniture of rattan within 9403; exclude seats and separately imported parts.",
+   "note": "PE rattan and resin wicker are not natural rattan. Check the actual materials and construction.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "rattan"
+   ]
+  },
+  {
+   "code": "9403.89",
+   "heading": "9403",
+   "title": "Furniture of other materials",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "tables",
+    "storage",
+    "desks",
+    "beds",
+    "outdoor"
+   ],
+   "officialDescription": "Furniture of other materials, including cane, osier, bamboo or similar materials: Other",
+   "products": [
+    "Furniture of materials not covered by an earlier 9403 material branch",
+    "Stone or glass furniture where the classification assessment supports this branch"
+   ],
+   "aliases": [
+    "stone table",
+    "marble table",
+    "glass table",
+    "concrete table",
+    "wicker table",
+    "mixed material table",
+    "glass desk",
+    "stone desk",
+    "石材家具",
+    "玻璃家具",
+    "bed",
+    "beds",
+    "床",
+    "desk",
+    "desks",
+    "书桌",
+    "办公桌",
+    "table",
+    "tables",
+    "桌子",
+    "dining table",
+    "餐桌",
+    "wardrobe",
+    "closet",
+    "衣柜",
+    "cabinet",
+    "cabinets",
+    "柜子",
+    "bed frame",
+    "床架",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Other materials, after assessment of the earlier branches",
+   "condition": "Furniture within 9403 outside its preceding material branches; apply the interpretation rules to composites.",
+   "note": "A stone top does not automatically make a complete table 9403.89. Stone or glass sheets/slabs presented alone are excluded from the furniture-parts provisions.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "furniture",
+   "categoryKeys": [
+    "furniture"
+   ],
+   "materials": [
+    "other"
+   ]
+  },
+  {
+   "code": "9403.91",
+   "heading": "9403",
+   "title": "Wooden parts of other furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "parts",
+    "furniture-parts",
+    "kitchen",
+    "bedroom"
+   ],
+   "officialDescription": "Parts: Of wood",
+   "products": [
+    "Identifiable wooden parts of 9403 furniture presented separately",
+    "Wooden furniture components eligible under the chapter notes"
+   ],
+   "aliases": [
+    "furniture part",
+    "table part",
+    "cabinet part",
+    "bed part",
+    "wardrobe part",
+    "wooden tabletop",
+    "wooden table top",
+    "cabinet door",
+    "drawer front",
+    "headboard",
+    "木家具配件",
+    "柜门",
+    "furniture parts",
+    "家具配件",
+    "cabinet parts",
+    "table parts",
+    "bed parts",
+    "wardrobe parts",
+    "cabinet doors",
+    "wardrobe door",
+    "wardrobe doors",
+    "cupboard door",
+    "cupboard doors",
+    "furniture door",
+    "furniture doors",
+    "table leg",
+    "table legs",
+    "bed leg",
+    "bed legs",
+    "drawer fronts",
+    "桌子配件",
+    "床配件",
+    "橱柜配件"
+   ],
+   "material": "Wood",
+   "condition": "A separately presented, identifiable wooden furniture part within 9403, subject to exclusions.",
+   "note": "A complete unassembled cabinet is not automatically classified as parts. Review whether doors, panels or headboards are identifiable parts or complete articles.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "parts",
+   "categoryKeys": [
+    "parts"
+   ],
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "code": "9403.99",
+   "heading": "9403",
+   "title": "Other parts of other furniture",
+   "category": "Other furniture and furniture parts",
+   "groups": [
+    "parts",
+    "furniture-parts"
+   ],
+   "officialDescription": "Parts: Other",
+   "products": [
+    "Identifiable non-wooden parts of 9403 furniture presented separately",
+    "Non-wooden furniture components eligible under the chapter notes"
+   ],
+   "aliases": [
+    "furniture part",
+    "table part",
+    "cabinet part",
+    "bed part",
+    "wardrobe part",
+    "metal table base",
+    "table base",
+    "headboard",
+    "家具配件",
+    "金属桌架",
+    "furniture parts",
+    "cabinet parts",
+    "table parts",
+    "bed parts",
+    "wardrobe parts",
+    "cabinet door",
+    "cabinet doors",
+    "wardrobe door",
+    "wardrobe doors",
+    "cupboard door",
+    "cupboard doors",
+    "furniture door",
+    "furniture doors",
+    "table leg",
+    "table legs",
+    "bed leg",
+    "bed legs",
+    "drawer front",
+    "drawer fronts",
+    "柜门",
+    "桌子配件",
+    "床配件",
+    "橱柜配件"
+   ],
+   "material": "Other than wood",
+   "condition": "A separately presented, identifiable furniture part within 9403, outside the wooden branch and subject to exclusions.",
+   "note": "Do not classify general-use hardware, drawer slides, hinges or castors here automatically. Separately presented glass or stone sheets/slabs are excluded by Chapter 94 Note 3(A).",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "parts",
+   "categoryKeys": [
+    "parts"
+   ],
+   "materials": [
+    "metal",
+    "plastic",
+    "bamboo",
+    "rattan",
+    "other"
+   ]
+  },
+  {
+   "code": "9404.10",
+   "heading": "9404",
+   "title": "Mattress supports",
+   "category": "Mattress supports and bedding",
+   "groups": [
+    "beds",
+    "bedding",
+    "mattress-supports"
+   ],
+   "officialDescription": "Mattress supports",
+   "products": [
+    "Mattress supports meeting heading 9404",
+    "Box springs meeting the heading description"
+   ],
+   "aliases": [
+    "mattress support",
+    "box spring",
+    "boxspring",
+    "sprung base",
+    "mattress foundation",
+    "bed base",
+    "床垫支架",
+    "弹簧床座",
+    "bed",
+    "beds",
+    "床"
+   ],
+   "material": "Depends on construction",
+   "condition": "A mattress support within heading 9404; distinguish it from an ordinary bed frame or a furniture part.",
+   "note": "The names bed base and platform bed are not conclusive. Obtain construction details before selecting between 9403 and 9404.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "bedding",
+   "categoryKeys": [
+    "bedding"
+   ],
+   "materials": [
+    "various"
+   ]
+  },
+  {
+   "code": "9404.21",
+   "heading": "9404",
+   "title": "Cellular rubber or plastic mattresses",
+   "category": "Mattress supports and bedding",
+   "groups": [
+    "beds",
+    "bedding",
+    "mattresses"
+   ],
+   "officialDescription": "Mattresses: Of cellular rubber or plastics, whether or not covered",
+   "products": [
+    "Cellular-rubber mattresses",
+    "Cellular-plastic mattresses",
+    "Foam mattresses meeting this branch"
+   ],
+   "aliases": [
+    "mattress",
+    "foam mattress",
+    "memory foam mattress",
+    "latex mattress",
+    "polyurethane mattress",
+    "foam topper",
+    "乳胶床垫",
+    "海绵床垫",
+    "床垫",
+    "bed",
+    "beds",
+    "床",
+    "mattresses"
+   ],
+   "material": "Cellular rubber or cellular plastics",
+   "condition": "A mattress of cellular rubber or plastics, whether covered or uncovered.",
+   "note": "Air mattresses and water mattresses are excluded from Chapter 94. A topper or hybrid mattress requires construction review; its marketing name is not enough.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "bedding",
+   "categoryKeys": [
+    "bedding"
+   ],
+   "materials": [
+    "rubber",
+    "plastic"
+   ]
+  },
+  {
+   "code": "9404.29",
+   "heading": "9404",
+   "title": "Mattresses of other materials",
+   "category": "Mattress supports and bedding",
+   "groups": [
+    "beds",
+    "bedding",
+    "mattresses"
+   ],
+   "officialDescription": "Mattresses: Of other materials",
+   "products": [
+    "Spring mattresses",
+    "Mattresses of other materials outside the cellular-rubber/plastics branch"
+   ],
+   "aliases": [
+    "mattress",
+    "spring mattress",
+    "pocket spring mattress",
+    "innerspring mattress",
+    "bonnell mattress",
+    "hybrid mattress",
+    "cotton mattress",
+    "coir mattress",
+    "futon mattress",
+    "弹簧床垫",
+    "床垫",
+    "bed",
+    "beds",
+    "床",
+    "mattresses"
+   ],
+   "material": "Other than cellular rubber or plastics, subject to composite-product assessment",
+   "condition": "A mattress within 9404 outside 9404.21; assess multi-material construction.",
+   "note": "A foam-topped spring mattress needs its construction reviewed. Do not decide from the word hybrid alone. Air and water mattresses are excluded.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "bedding",
+   "categoryKeys": [
+    "bedding"
+   ],
+   "materials": [
+    "spring",
+    "textile",
+    "other"
+   ]
+  },
+  {
+   "code": "9404.30",
+   "heading": "9404",
+   "title": "Sleeping bags",
+   "category": "Mattress supports and bedding",
+   "groups": [
+    "bedding",
+    "sleeping-bags"
+   ],
+   "officialDescription": "Sleeping bags",
+   "products": [
+    "Sleeping bags within heading 9404"
+   ],
+   "aliases": [
+    "sleeping bag",
+    "camping sleeping bag",
+    "sleeping sack",
+    "睡袋"
+   ],
+   "material": "Construction within heading 9404",
+   "condition": "A sleeping bag within the heading scope.",
+   "note": "An infant garment described as a sleep sack is not necessarily a sleeping bag under this heading; establish the article and construction.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "bedding",
+   "categoryKeys": [
+    "bedding"
+   ],
+   "materials": [
+    "various"
+   ]
+  },
+  {
+   "code": "9404.40",
+   "heading": "9404",
+   "title": "Quilts, bedspreads and duvets",
+   "category": "Mattress supports and bedding",
+   "groups": [
+    "bedding",
+    "quilts-duvets"
+   ],
+   "officialDescription": "Quilts, bedspreads, eiderdowns and duvets (comforters)",
+   "products": [
+    "Quilts within heading 9404",
+    "Stuffed or internally fitted duvets and comforters",
+    "Bedspreads meeting heading 9404"
+   ],
+   "aliases": [
+    "quilt",
+    "duvet",
+    "comforter",
+    "eiderdown",
+    "quilted bedspread",
+    "filled bedspread",
+    "被子",
+    "羽绒被"
+   ],
+   "material": "Must meet the stuffing, internal filling or other construction terms of heading 9404",
+   "condition": "The article must meet the heading description; assess filled or internally fitted construction.",
+   "note": "Duvet covers, sheets and unfilled textile bedspreads are not automatically included. A product name alone does not establish 9404 coverage.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "bedding",
+   "categoryKeys": [
+    "bedding"
+   ],
+   "materials": [
+    "various"
+   ]
+  },
+  {
+   "code": "9404.90",
+   "heading": "9404",
+   "title": "Other bedding and similar furnishings",
+   "category": "Mattress supports and bedding",
+   "groups": [
+    "bedding",
+    "cushions-pillows"
+   ],
+   "officialDescription": "Other articles of bedding and similar furnishing within heading 9404",
+   "products": [
+    "Stuffed pillows",
+    "Stuffed cushions",
+    "Pouffes meeting heading 9404",
+    "Other eligible filled bedding articles"
+   ],
+   "aliases": [
+    "pillow",
+    "cushion",
+    "scatter cushion",
+    "throw pillow",
+    "seat cushion",
+    "outdoor cushion",
+    "pouffe",
+    "pouf",
+    "filled cushion",
+    "枕头",
+    "靠垫",
+    "坐垫",
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "material": "Sprung, stuffed, internally fitted or cellular construction within heading 9404",
+   "condition": "An article within heading 9404 outside its more specific branches.",
+   "note": "An empty cushion cover, an air cushion and a complete framed seat need separate consideration. Separately presented 9404 articles are not classified as furniture parts under 9401–9403.",
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "categoryKey": "bedding",
+   "categoryKeys": [
+    "bedding"
+   ],
+   "materials": [
+    "various"
+   ]
+  }
+ ]
+}

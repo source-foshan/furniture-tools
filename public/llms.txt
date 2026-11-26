@@ -1,0 +1,35 @@
+# Source Foshan Furniture Tools
+
+> Free, read-only tools from Source Foshan, a furniture sourcing agent in Foshan, China: a furniture HS code finder (international six-digit HS 2022 codes for headings 9401–9404: seats, furniture, medical/salon furniture, mattresses and bedding) and a shipping CBM and container calculator. Available as a remote MCP server, a JSON API and embeddable website widgets. No key or sign-up needed.
+
+Publisher: Source Foshan (https://sourcefoshan.com/)
+MCP Registry name: com.sourcefoshan/furniture-tools
+
+## Use from an AI assistant (MCP)
+
+- MCP server (Streamable HTTP): https://tools.sourcefoshan.com/mcp
+- `find_furniture_hs_code`: candidate HS codes from a product description in English or Chinese (e.g. "wooden dining table", "沙发") or a 4–6 digit code, with the conditions for choosing each code, classification notes and official sources. Results are reference candidates, not a customs ruling.
+- `calculate_shipping_cbm`: CBM, cubic feet, air volumetric and chargeable weight and sea LCL revenue tons from carton dimensions (cm, mm, m or in; kg or lb), or the total of volumes quoted by several suppliers; suggests LCL (under 15 m³), a 20GP (under 28 m³) or a 40HQ (up to 68 m³).
+
+## JSON API
+
+- [OpenAPI 3.1 spec](https://tools.sourcefoshan.com/openapi.json)
+- HS codes: https://tools.sourcefoshan.com/v1/hs-code?q=wooden+dining+table
+- CBM, one carton line: https://tools.sourcefoshan.com/v1/cbm?length=120&width=60&height=50&quantity=10&weight=35
+- CBM, supplier volumes: https://tools.sourcefoshan.com/v1/cbm?volumes=12,8.5,3
+- Rate limit: 60 requests per minute per IP.
+
+## Website widgets
+
+- [Embed codes and live demos](https://tools.sourcefoshan.com/widgets)
+
+## Source pages on sourcefoshan.com
+
+- [Furniture HS Code Finder](https://sourcefoshan.com/resources/furniture-hs-code-finder/): the same 36-code table, searchable, with a CSV download.
+- [Furniture HS Codes guide](https://sourcefoshan.com/furniture-hs-code/): classification and duty-planning guidance.
+- [Shipping and Consolidation from China](https://sourcefoshan.com/furniture-shipping-and-consolidation-from-china/): packed volume, LCL/FCL and the consolidation calculator.
+
+## Notes
+
+- HS codes are international six-digit codes. National tariff lines (8–10 digits) and duty rates differ by country; confirm the classification with a customs broker or the destination customs authority.
+- CBM and container suggestions are planning estimates; container fit depends on the real packing list.

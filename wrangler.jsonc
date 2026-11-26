@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sourcefoshan-tools",
+  // Account: set CLOUDFLARE_ACCOUNT_ID in the environment (or a git-ignored .env file).
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-20",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "tools.sourcefoshan.com", "custom_domain": true },
+    // MCP Registry domain proof only. Exactly one path on the main site; every other
+    // sourcefoshan.com URL still goes straight to the WordPress site on Kinsta.
+    { "pattern": "sourcefoshan.com/.well-known/mcp-registry-auth", "zone_name": "sourcefoshan.com" }
+  ],
+  "observability": { "enabled": true },
+  // Widgets, embed pages and fonts. Files are served before the Worker runs;
+  // anything not found falls through to the API routes in src/index.js.
+  "assets": { "directory": "./public", "binding": "ASSETS", "html_handling": "auto-trailing-slash", "not_found_handling": "none" },
+  // Copies src/core/cbm.js into public/embed/ so the widget runs the same code as the API.
+  "build": { "command": "node scripts/build-assets.mjs" },
+  // 60 requests per minute per IP (see src/index.js)
+  "ratelimits": [
+    { "name": "RATE_LIMITER", "namespace_id": "1001", "simple": { "limit": 60, "period": 60 } }
+  ]
+}

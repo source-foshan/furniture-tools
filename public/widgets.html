@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free furniture CBM calculator and HS code finder for your website · Source Foshan</title>
+<meta name="description" content="Add a free furniture CBM and container calculator or an HS code finder to your website with two lines of code. Also available as a JSON API and an MCP server for AI assistants.">
+<link rel="canonical" href="https://tools.sourcefoshan.com/widgets">
+<link rel="preload" href="/fonts/hanken-grotesk-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/plus-jakarta-sans-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/embed/embed.css">
+<link rel="stylesheet" href="/widgets.css">
+<script src="/widget.js" async></script>
+<script type="module" src="/widgets.js"></script>
+</head>
+<body class="page">
+<header class="page-top">
+  <div class="wrap page-top__inner">
+    <a class="brand" href="https://sourcefoshan.com/?utm_source=sourcefoshan-tools&amp;utm_medium=referral&amp;utm_campaign=widgets-page"><span class="sf-mark" aria-hidden="true"></span>Source Foshan <span class="brand__tag">Tools</span></a>
+    <nav class="page-nav" aria-label="Sections">
+      <a href="#cbm">CBM calculator</a>
+      <a href="#hs-code">HS code finder</a>
+      <a href="#developers">API &amp; MCP</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <p class="eyebrow">Free · No sign-up · Two lines of code</p>
+    <h1>Free furniture shipping tools for your website</h1>
+    <p class="lede">Give your visitors a CBM and container calculator or a furniture HS code finder. Paste the code into any page and the tool loads in its own frame: it resizes itself, works on phones and never touches your site’s styles.</p>
+  </section>
+
+  <section class="tool wrap" id="cbm" aria-labelledby="cbm-h">
+    <div class="tool__text">
+      <h2 id="cbm-h">CBM &amp; container calculator</h2>
+      <p>Carton sizes in cm or inches give total CBM, cubic feet, air volumetric and chargeable weight and sea LCL revenue tons. Supplier volumes add up what several factories quoted. Both suggest LCL, a 20GP or a 40HQ.</p>
+      <h3>Embed code</h3>
+      <div class="code">
+        <pre><code id="code-cbm">&lt;div data-sourcefoshan-tool="cbm"&gt;
+  &lt;a href="https://sourcefoshan.com/furniture-shipping-and-consolidation-from-china/"&gt;Furniture CBM calculator&lt;/a&gt; by Source Foshan
+&lt;/div&gt;
+&lt;script src="https://tools.sourcefoshan.com/widget.js" async&gt;&lt;/script&gt;</code></pre>
+        <button type="button" class="sf-btn sf-btn--small copy" data-copy="code-cbm">Copy code</button>
+      </div>
+      <p class="opt">Option: add <code>data-unit="in"</code> to the <code>div</code> to start in inches and pounds.</p>
+    </div>
+    <div class="tool__demo">
+      <div data-sourcefoshan-tool="cbm">
+        <a href="https://sourcefoshan.com/furniture-shipping-and-consolidation-from-china/?utm_source=sourcefoshan-tools&amp;utm_medium=referral&amp;utm_campaign=widgets-page">Furniture CBM calculator</a> by Source Foshan
+      </div>
+    </div>
+  </section>
+
+  <section class="tool wrap" id="hs-code" aria-labelledby="hs-h">
+    <div class="tool__text">
+      <h2 id="hs-h">Furniture HS code finder</h2>
+      <p>Visitors describe a product in English or Chinese and get candidate six-digit HS 2022 codes for seats, furniture, mattresses and bedding (headings 9401–9404), with the conditions for choosing each code and a disclaimer.</p>
+      <h3>Embed code</h3>
+      <div class="code">
+        <pre><code id="code-hs">&lt;div data-sourcefoshan-tool="hs-code"&gt;
+  &lt;a href="https://sourcefoshan.com/resources/furniture-hs-code-finder/"&gt;Furniture HS code finder&lt;/a&gt; by Source Foshan
+&lt;/div&gt;
+&lt;script src="https://tools.sourcefoshan.com/widget.js" async&gt;&lt;/script&gt;</code></pre>
+        <button type="button" class="sf-btn sf-btn--small copy" data-copy="code-hs">Copy code</button>
+      </div>
+      <p class="opt">Option: add <code>data-query="sofa"</code> to open with a search already run.</p>
+    </div>
+    <div class="tool__demo">
+      <div data-sourcefoshan-tool="hs-code">
+        <a href="https://sourcefoshan.com/resources/furniture-hs-code-finder/?utm_source=sourcefoshan-tools&amp;utm_medium=referral&amp;utm_campaign=widgets-page">Furniture HS code finder</a> by Source Foshan
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap notes" aria-labelledby="notes-h">
+    <h2 id="notes-h">Good to know</h2>
+    <ul class="grid">
+      <li><strong>Works anywhere.</strong> WordPress (Custom HTML block), Shopify, Wix and Squarespace (embed code blocks), Webflow or plain HTML. Using both tools on one page? Include the script line once.</li>
+      <li><strong>Keep the credit line.</strong> The “by Source Foshan” link under the tool is how it stays free. Please leave it in place.</li>
+      <li><strong>Light and private.</strong> The tool loads only when it scrolls into view and sets no cookies. CBM figures are worked out in the visitor’s browser; HS searches go to our API only to return results.</li>
+      <li><strong>Reference figures.</strong> CBM results are planning estimates and HS codes are candidates, not a customs ruling. Both tools say so to your visitors.</li>
+    </ul>
+  </section>
+
+  <section class="wrap dev" id="developers" aria-labelledby="dev-h">
+    <h2 id="dev-h">For developers and AI assistants</h2>
+    <div class="grid">
+      <div>
+        <h3>JSON API</h3>
+        <p>No key needed, 60 requests per minute per IP. <a href="/openapi.json">OpenAPI spec</a>.</p>
+        <pre><code>GET https://tools.sourcefoshan.com/v1/hs-code?q=wooden+dining+table
+GET https://tools.sourcefoshan.com/v1/cbm?length=120&amp;width=60&amp;height=50&amp;quantity=10&amp;weight=35
+GET https://tools.sourcefoshan.com/v1/cbm?volumes=12,8.5,3
+POST https://tools.sourcefoshan.com/v1/cbm</code></pre>
+      </div>
+      <div>
+        <h3>MCP server</h3>
+        <p>Add this URL as a custom connector in an AI assistant that supports remote MCP servers. Tools: <code>find_furniture_hs_code</code> and <code>calculate_shipping_cbm</code>.</p>
+        <div class="code">
+          <pre><code id="code-mcp">https://tools.sourcefoshan.com/mcp</code></pre>
+          <button type="button" class="sf-btn sf-btn--small copy" data-copy="code-mcp">Copy URL</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="page-foot">
+  <div class="wrap">
+    <p>Built by <a href="https://sourcefoshan.com/?utm_source=sourcefoshan-tools&amp;utm_medium=referral&amp;utm_campaign=widgets-page">Source Foshan</a>, a furniture sourcing agent in Foshan, China: supplier comparison against your specification, quality checks and one consolidated shipment from several factories. <a href="https://sourcefoshan.com/start-your-project/?utm_source=sourcefoshan-tools&amp;utm_medium=referral&amp;utm_campaign=widgets-page">Start a project</a>.</p>
+  </div>
+</footer>
+</body>
+</html>

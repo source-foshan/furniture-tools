@@ -1,0 +1,45 @@
+{
+  "name": "sourcefoshan-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Furniture HS code finder and shipping CBM / container calculator: remote MCP server, JSON API and embeddable widgets on Cloudflare Workers",
+  "license": "MIT",
+  "homepage": "https://tools.sourcefoshan.com/widgets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/source-foshan/furniture-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/source-foshan/furniture-tools/issues"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "hs-code",
+    "harmonized-system",
+    "cbm",
+    "cbm-calculator",
+    "furniture",
+    "shipping",
+    "cloudflare-workers"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "sync": "node scripts/sync-from-site.mjs",
+    "test": "node --test \"test/*.test.js\"",
+    "check:site": "node scripts/check-site-parity.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cfworker/json-schema": "4.1.6",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "wrangler": "4.168.0"
+  }
+}

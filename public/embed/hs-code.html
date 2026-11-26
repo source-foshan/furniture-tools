@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Furniture HS code finder · Source Foshan</title>
+<link rel="preload" href="/fonts/hanken-grotesk-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/embed/embed.css">
+<script type="module" src="/embed/hs-code.js"></script>
+</head>
+<body>
+<main class="sf-card" id="hs">
+  <div class="sf-head">
+    <div>
+      <h1 class="sf-title">Furniture HS code finder</h1>
+      <p class="sf-sub">Describe the product in English or 中文, or type a code.</p>
+    </div>
+    <span class="sf-badge" id="hs-edition">HS 2022</span>
+  </div>
+
+  <form class="hs-form" id="hs-form" role="search" autocomplete="off">
+    <label class="sr-only" for="hs-q">Product or HS code</label>
+    <input class="sf-input" id="hs-q" type="search" name="q" maxlength="180" placeholder="e.g. wooden dining table, 沙发, 9403.60" enterkeyhint="search">
+    <button class="sf-btn" type="submit">Search</button>
+  </form>
+  <div class="hs-chips" id="hs-chips" aria-label="Examples">
+    <button type="button" class="hs-chip" data-q="sofa">Sofa</button>
+    <button type="button" class="hs-chip" data-q="wooden dining table">Wooden dining table</button>
+    <button type="button" class="hs-chip" data-q="office chair">Office chair</button>
+    <button type="button" class="hs-chip" data-q="mattress">Mattress</button>
+    <button type="button" class="hs-chip" data-q="wardrobe">Wardrobe</button>
+    <button type="button" class="hs-chip" data-q="kitchen cabinet">Kitchen cabinet</button>
+  </div>
+
+  <p class="hs-status" id="hs-status" role="status" aria-live="polite"></p>
+  <div id="hs-guidance"></div>
+  <ul class="hs-results" id="hs-results"></ul>
+  <a class="hs-more" id="hs-more" hidden data-track href="https://sourcefoshan.com/resources/furniture-hs-code-finder/">Compare every candidate on sourcefoshan.com →</a>
+
+  <p class="sf-fine" id="hs-disclaimer">Reference only. International six-digit HS codes for furniture, seats and bedding (headings 9401–9404). National tariff lines and duty rates differ by country; confirm the final classification with your customs broker.</p>
+
+  <div class="sf-foot">
+    <span><span class="sf-mark" aria-hidden="true"></span>Free tool by <a data-track href="https://sourcefoshan.com/">Source Foshan</a>, furniture sourcing agent in Foshan</span>
+    <a href="https://tools.sourcefoshan.com/widgets" target="_blank" rel="noopener">Add to your site</a>
+  </div>
+</main>
+</body>
+</html>

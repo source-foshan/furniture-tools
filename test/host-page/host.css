@@ -1,0 +1,7 @@
+/* Deliberately opinionated host styles: the widgets must not be affected by them. */
+* { font-family: Georgia, 'Times New Roman', serif; }
+body { margin: 0; background: #faf7ff; color: #222; line-height: 1.7; }
+header { padding: 14px 24px; background: #2d1b69; color: #fff; }
+article { max-width: 720px; margin: 0 auto; padding: 24px; }
+input, button { font-size: 22px !important; border-radius: 0; }
+a { color: #6b21a8; }

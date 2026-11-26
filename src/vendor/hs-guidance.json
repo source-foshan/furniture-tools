@@ -1,0 +1,619 @@
+{
+ "defaultMessage": "A product name can lead to several HS branches. Use the conditions to narrow the candidates, then confirm the national code for your shipment.",
+ "ambiguousQueries": [
+  {
+   "terms": [
+    "sofa",
+    "couch",
+    "settee",
+    "sectional",
+    "沙发"
+   ],
+   "candidateCodes": [
+    "9401.41",
+    "9401.49",
+    "9401.52",
+    "9401.53",
+    "9401.59",
+    "9401.61",
+    "9401.69",
+    "9401.71",
+    "9401.79",
+    "9401.80"
+   ],
+   "message": "Check conversion into a bed, frame or principal material, upholstery and construction. These are candidate branches, not a classification from the product name."
+  },
+  {
+   "terms": [
+    "bed",
+    "beds",
+    "床"
+   ],
+   "candidateCodes": [
+    "9401.41",
+    "9401.49",
+    "9402.90",
+    "9403.20",
+    "9403.50",
+    "9403.70",
+    "9403.82",
+    "9403.83",
+    "9403.89",
+    "9404.10",
+    "9404.21",
+    "9404.29"
+   ],
+   "message": "Distinguish a bed frame, convertible seat, medical bed, mattress support and mattress. Different components may need separate assessment."
+  },
+  {
+   "terms": [
+    "desk",
+    "desks",
+    "书桌",
+    "办公桌"
+   ],
+   "candidateCodes": [
+    "9403.10",
+    "9403.30",
+    "9403.70",
+    "9403.82",
+    "9403.83",
+    "9403.89"
+   ],
+   "message": "Check material and whether the article is of a kind used in offices. A multi-material desk requires its construction to be reviewed."
+  },
+  {
+   "terms": [
+    "table",
+    "tables",
+    "桌子"
+   ],
+   "candidateCodes": [
+    "9402.90",
+    "9403.10",
+    "9403.20",
+    "9403.30",
+    "9403.40",
+    "9403.50",
+    "9403.60",
+    "9403.70",
+    "9403.82",
+    "9403.83",
+    "9403.89"
+   ],
+   "message": "A table may be medical furniture, office furniture, kitchen or bedroom furniture, or other furniture. Identify function and materials first."
+  },
+  {
+   "terms": [
+    "chair",
+    "chairs",
+    "椅子"
+   ],
+   "candidateCodes": [
+    "9401.10",
+    "9401.20",
+    "9401.31",
+    "9401.39",
+    "9401.41",
+    "9401.49",
+    "9401.52",
+    "9401.53",
+    "9401.59",
+    "9401.61",
+    "9401.69",
+    "9401.71",
+    "9401.79",
+    "9401.80",
+    "9402.10"
+   ],
+   "message": "Check specialist use, swivel and height adjustment, conversion, materials and upholstery before choosing a seat branch."
+  },
+  {
+   "terms": [
+    "mattress",
+    "mattresses",
+    "床垫"
+   ],
+   "candidateCodes": [
+    "9404.21",
+    "9404.29"
+   ],
+   "message": "Check mattress construction and material. Air and water mattresses are outside Chapter 94; a hybrid description is not sufficient."
+  },
+  {
+   "terms": [
+    "office chair",
+    "task chair",
+    "desk chair",
+    "办公椅"
+   ],
+   "candidateCodes": [
+    "9401.31",
+    "9401.39",
+    "9401.61",
+    "9401.69",
+    "9401.71",
+    "9401.79",
+    "9401.80"
+   ],
+   "message": "Confirm whether the chair both swivels and has variable height adjustment. Office use alone does not settle the six-digit seat code."
+  },
+  {
+   "terms": [
+    "sofa bed",
+    "sofabed",
+    "sleeper sofa",
+    "沙发床"
+   ],
+   "candidateCodes": [
+    "9401.41",
+    "9401.49"
+   ],
+   "message": "These branches cover qualifying convertible seats and exclude garden seats and camping equipment. Confirm wood versus other construction."
+  },
+  {
+   "terms": [
+    "fabric sofa",
+    "leather sofa",
+    "布艺沙发",
+    "真皮沙发"
+   ],
+   "candidateCodes": [
+    "9401.41",
+    "9401.49",
+    "9401.61",
+    "9401.71",
+    "9401.80"
+   ],
+   "message": "Cover material does not identify the frame or exclude a convertible seat. These results are candidate branches only."
+  },
+  {
+   "terms": [
+    "furniture parts",
+    "furniture part",
+    "家具配件"
+   ],
+   "candidateCodes": [
+    "9401.91",
+    "9401.99",
+    "9402.10",
+    "9402.90",
+    "9403.91",
+    "9403.99"
+   ],
+   "message": "Identify the parent article and the part. General-use hardware and certain independently described components are excluded; a complete unassembled article is not automatically parts.",
+   "intent": "parts"
+  },
+  {
+   "terms": [
+    "dining table",
+    "餐桌"
+   ],
+   "candidateCodes": [
+    "9403.20",
+    "9403.60",
+    "9403.70",
+    "9403.82",
+    "9403.83",
+    "9403.89"
+   ],
+   "message": "Check material and construction. A stone or glass top on a different base requires a composite-product assessment."
+  },
+  {
+   "terms": [
+    "wardrobe",
+    "closet",
+    "衣柜"
+   ],
+   "candidateCodes": [
+    "9403.20",
+    "9403.50",
+    "9403.70",
+    "9403.82",
+    "9403.83",
+    "9403.89"
+   ],
+   "message": "Identify material and whether the goods are complete furniture, an unassembled complete article or separate parts."
+  },
+  {
+   "terms": [
+    "cabinet",
+    "cabinets",
+    "柜子"
+   ],
+   "candidateCodes": [
+    "9403.10",
+    "9403.20",
+    "9403.30",
+    "9403.40",
+    "9403.50",
+    "9403.60",
+    "9403.70",
+    "9403.82",
+    "9403.83",
+    "9403.89"
+   ],
+   "message": "Cabinet classification depends on material and its intended furniture function. A kitchen cabinet, office cabinet and bedroom cabinet need different branches."
+  },
+  {
+   "terms": [
+    "bed frame",
+    "床架"
+   ],
+   "candidateCodes": [
+    "9403.20",
+    "9403.50",
+    "9403.70",
+    "9403.82",
+    "9403.83",
+    "9403.89"
+   ],
+   "message": "Check the frame material and whether the product is actually a bed frame, a mattress support or a specialised medical bed."
+  },
+  {
+   "terms": [
+    "bar stool",
+    "bar stools",
+    "counter stool",
+    "counter stools",
+    "吧椅",
+    "吧凳"
+   ],
+   "candidateCodes": [
+    "9401.31",
+    "9401.39",
+    "9401.52",
+    "9401.53",
+    "9401.59",
+    "9401.61",
+    "9401.69",
+    "9401.71",
+    "9401.79",
+    "9401.80"
+   ],
+   "message": "Check whether the stool both swivels and adjusts in height; otherwise assess bamboo, rattan, other materials, frame and upholstery. A fixed bamboo or rattan stool does not belong in the adjustable-swivel branch merely because it is a bar stool."
+  },
+  {
+   "terms": [
+    "dining chair",
+    "dining chairs",
+    "餐椅"
+   ],
+   "candidateCodes": [
+    "9401.31",
+    "9401.39",
+    "9401.52",
+    "9401.53",
+    "9401.59",
+    "9401.61",
+    "9401.69",
+    "9401.71",
+    "9401.79",
+    "9401.80"
+   ],
+   "message": "Identify bamboo, rattan, other materials, the frame and upholstery. Check the special swivel-and-variable-height branch only if both functions are present. A chair marketed for dining is not classified from room use alone."
+  },
+  {
+   "terms": [
+    "chair part",
+    "chair parts",
+    "seat part",
+    "seat parts",
+    "sofa part",
+    "sofa parts",
+    "chair frame",
+    "seat frame",
+    "sofa frame",
+    "chair leg",
+    "chair legs",
+    "sofa leg",
+    "sofa legs",
+    "椅子配件",
+    "座椅配件",
+    "沙发配件",
+    "沙发框架"
+   ],
+   "candidateCodes": [
+    "9401.91",
+    "9401.99"
+   ],
+   "intent": "parts",
+   "message": "These are candidate seat-part branches, separated by wood versus other materials. First exclude general-use hardware and independently classified components, and distinguish parts from a complete unassembled seat."
+  },
+  {
+   "terms": [
+    "cabinet part",
+    "cabinet parts",
+    "table part",
+    "table parts",
+    "bed part",
+    "bed parts",
+    "wardrobe part",
+    "wardrobe parts",
+    "cabinet door",
+    "cabinet doors",
+    "wardrobe door",
+    "wardrobe doors",
+    "cupboard door",
+    "cupboard doors",
+    "furniture door",
+    "furniture doors",
+    "table leg",
+    "table legs",
+    "bed leg",
+    "bed legs",
+    "drawer front",
+    "drawer fronts",
+    "柜门",
+    "桌子配件",
+    "床配件",
+    "橱柜配件"
+   ],
+   "candidateCodes": [
+    "9403.91",
+    "9403.99"
+   ],
+   "intent": "parts",
+   "message": "These are candidate parts of other furniture, separated by wood versus other materials. The article must be an identifiable furniture part; review exclusions for general-use hardware, separate glass or stone sheets/slabs, and complete unassembled goods."
+  },
+  {
+   "terms": [
+    "dental chair part",
+    "dental chair parts",
+    "dentist chair part",
+    "dentist chair parts",
+    "barber chair part",
+    "barber chair parts",
+    "牙科椅配件",
+    "理发椅配件"
+   ],
+   "candidateCodes": [
+    "9402.10"
+   ],
+   "intent": "parts",
+   "message": "This branch includes eligible parts of qualifying dental, barber or similar chairs. Confirm the parent chair meets heading 9402, and check exclusions or independent headings for the component."
+  },
+  {
+   "terms": [
+    "hospital bed part",
+    "hospital bed parts",
+    "medical bed part",
+    "medical bed parts",
+    "operating table part",
+    "operating table parts",
+    "examination table part",
+    "examination table parts",
+    "病床配件",
+    "检查台配件"
+   ],
+   "candidateCodes": [
+    "9402.90"
+   ],
+   "intent": "parts",
+   "message": "This branch includes eligible parts of the other medical, surgical, dental or veterinary furniture covered by 9402. Confirm the parent article and whether the component is separately described elsewhere."
+  },
+  {
+   "terms": [
+    "medical chair part",
+    "medical chair parts",
+    "salon chair part",
+    "salon chair parts",
+    "医疗椅配件",
+    "美容椅配件"
+   ],
+   "candidateCodes": [
+    "9402.10",
+    "9402.90",
+    "9401.91",
+    "9401.99"
+   ],
+   "intent": "parts",
+   "message": "Medical or salon in a product name does not establish the parent heading. Determine whether the parent is a qualifying 9402 chair or other medical furniture, or an ordinary 9401 seat, then assess the part and exclusions."
+  },
+  {
+   "terms": [
+    "outdoor furniture",
+    "patio furniture",
+    "户外家具"
+   ],
+   "candidateCodes": [
+    "9401.52",
+    "9401.53",
+    "9401.59",
+    "9401.61",
+    "9401.69",
+    "9401.71",
+    "9401.79",
+    "9401.80",
+    "9403.20",
+    "9403.60",
+    "9403.70",
+    "9403.82",
+    "9403.83",
+    "9403.89",
+    "9404.90"
+   ],
+   "message": "Separate seats, tables or storage furniture and loose cushions. Natural rattan and PE rattan are different materials."
+  }
+ ],
+ "excludedOrOutOfScope": [
+  {
+   "terms": [
+    "gas lift",
+    "gas spring",
+    "gas cylinder",
+    "气杆",
+    "气弹簧"
+   ],
+   "message": "A replacement gas lift or cylinder needs its own classification assessment. It is not automatically a seat part because it is used in an office chair.",
+   "candidateCodes": [],
+   "matchMode": "phrase",
+   "exceptionPhrases": []
+  },
+  {
+   "terms": [
+    "castor",
+    "caster",
+    "castors",
+    "casters",
+    "hinge",
+    "hinges",
+    "drawer slide",
+    "drawer slides",
+    "drawer runner",
+    "drawer runners",
+    "screw",
+    "screws",
+    "脚轮",
+    "铰链",
+    "滑轨",
+    "螺丝"
+   ],
+   "message": "General-use hardware may be excluded from Chapter 94. Check the applicable hardware or mechanical heading and the actual product rather than selecting furniture parts by its end use.",
+   "candidateCodes": [],
+   "matchMode": "phrase",
+   "exceptionPhrases": []
+  },
+  {
+   "terms": [
+    "air mattress",
+    "air bed",
+    "water mattress",
+    "water bed",
+    "air cushion",
+    "water cushion",
+    "充气床垫",
+    "水床"
+   ],
+   "message": "Chapter 94 Note 1(a) excludes pneumatic or water mattresses, pillows and cushions. This furniture dataset does not classify them.",
+   "candidateCodes": [],
+   "matchMode": "phrase",
+   "exceptionPhrases": []
+  },
+  {
+   "terms": [
+    "glass slab",
+    "stone slab",
+    "marble slab",
+    "granite slab",
+    "glass sheet",
+    "玻璃板",
+    "石材板"
+   ],
+   "message": "Chapter 94 Note 3(A) excludes separately presented glass or stone sheets and slabs from its furniture-parts provisions. A complete assembled table is a different classification question.",
+   "candidateCodes": [],
+   "matchMode": "phrase",
+   "exceptionPhrases": []
+  },
+  {
+   "terms": [
+    "mirror",
+    "mirrors",
+    "floor mirror",
+    "floor mirrors",
+    "standing mirror",
+    "镜子"
+   ],
+   "matchMode": "exact-query",
+   "message": "This dataset does not cover standalone mirrors. Chapter 94 Note 1(b) excludes floor-standing mirrors. Furniture incorporating a mirror needs a review of the whole article.",
+   "candidateCodes": [],
+   "exceptionPhrases": []
+  },
+  {
+   "terms": [
+    "lamp",
+    "lamps",
+    "light",
+    "lighting",
+    "luminaire",
+    "luminaires",
+    "chandelier",
+    "灯具"
+   ],
+   "matchMode": "exact-query",
+   "message": "Luminaires and lighting fittings are outside this dataset. Consult heading 9405 and applicable exclusions, including the Chapter 85 distinction.",
+   "candidateCodes": [],
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "exceptionPhrases": []
+  },
+  {
+   "terms": [
+    "ceiling light",
+    "wall light",
+    "floor lamp",
+    "table lamp",
+    "desk lamp",
+    "bedside lamp",
+    "lighting fixture",
+    "lighting fitting"
+   ],
+   "matchMode": "phrase",
+   "message": "Luminaires and lighting fittings are outside this dataset. Consult heading 9405 and applicable exclusions, including the Chapter 85 distinction.",
+   "candidateCodes": [],
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "exceptionPhrases": []
+  },
+  {
+   "terms": [
+    "prefabricated building",
+    "prefab building",
+    "modular building",
+    "garden room",
+    "预制建筑"
+   ],
+   "message": "Prefabricated buildings are outside this dataset; consult heading 9406 and its chapter note.",
+   "candidateCodes": [],
+   "sourceUrl": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/2094_2022e.pdf?la=en",
+   "matchMode": "phrase",
+   "exceptionPhrases": []
+  },
+  {
+   "terms": [
+    "door",
+    "doors",
+    "interior door",
+    "exterior door",
+    "wooden door",
+    "front door",
+    "entry door",
+    "木门",
+    "房门",
+    "室内门"
+   ],
+   "matchMode": "phrase",
+   "exceptionPhrases": [
+    "cabinet door",
+    "cabinet doors",
+    "wardrobe door",
+    "wardrobe doors",
+    "cupboard door",
+    "cupboard doors",
+    "furniture door",
+    "furniture doors",
+    "柜门"
+   ],
+   "message": "Architectural doors are outside this furniture dataset. A cabinet, wardrobe or cupboard door can instead be an identifiable furniture part; search that complete product phrase and check its material and construction.",
+   "candidateCodes": []
+  },
+  {
+   "terms": [
+    "tile",
+    "tiles",
+    "flooring",
+    "sanitaryware",
+    "tap",
+    "faucet",
+    "building materials",
+    "瓷砖",
+    "门窗",
+    "地板",
+    "建材",
+    "洁具"
+   ],
+   "message": "This dataset covers the furniture and bedding branches of headings 9401–9404. It does not provide a complete building-materials HS table.",
+   "candidateCodes": [],
+   "matchMode": "phrase",
+   "exceptionPhrases": []
+  }
+ ]
+}

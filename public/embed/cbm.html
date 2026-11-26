@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Furniture CBM and container calculator · Source Foshan</title>
+<link rel="preload" href="/fonts/hanken-grotesk-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/embed/embed.css">
+<script type="module" src="/embed/cbm.js"></script>
+</head>
+<body>
+<main class="sf-card" id="cbm">
+  <div class="sf-head">
+    <div>
+      <h1 class="sf-title">CBM &amp; container calculator</h1>
+      <p class="sf-sub">Shipping volume, chargeable weight and the container that fits.</p>
+    </div>
+    <span class="sf-badge">Free</span>
+  </div>
+
+  <div class="sf-seg sf-tabs" role="tablist" aria-label="Calculate from">
+    <button type="button" role="tab" id="tab-cartons" aria-controls="panel-cartons" aria-selected="true">Carton sizes</button>
+    <button type="button" role="tab" id="tab-suppliers" aria-controls="panel-suppliers" aria-selected="false" tabindex="-1">Supplier volumes</button>
+  </div>
+
+  <section id="panel-cartons" role="tabpanel" aria-labelledby="tab-cartons">
+    <div class="cbm-toolbar">
+      <span class="sf-label" id="units-label">Units</span>
+      <div class="sf-seg" role="group" aria-labelledby="units-label">
+        <button type="button" data-system="metric" aria-pressed="true">cm · kg</button>
+        <button type="button" data-system="imperial" aria-pressed="false">in · lb</button>
+      </div>
+    </div>
+    <div class="cbm-lines" id="cbm-lines"></div>
+    <button type="button" class="sf-link-btn cbm-add-row" id="add-line">+ Add carton line</button>
+  </section>
+
+  <section id="panel-suppliers" role="tabpanel" aria-labelledby="tab-suppliers" hidden>
+    <p class="cbm-hint cbm-intro">Add up the volume each factory quoted, in m³, to see if one container fits.</p>
+    <div class="cbm-suppliers" id="cbm-suppliers"></div>
+    <button type="button" class="sf-link-btn cbm-add-row" id="add-supplier">+ Add supplier</button>
+  </section>
+
+  <p class="cbm-hint" id="cbm-hint" aria-live="polite"></p>
+
+  <div class="cbm-result" id="cbm-result" aria-live="polite">
+    <p class="cbm-empty" id="cbm-empty">Enter carton length, width and height to see the CBM.</p>
+    <div id="cbm-output" hidden>
+      <div class="cbm-total">
+        <span class="cbm-total__num" id="out-cbm">0<small>m³</small></span>
+        <span class="cbm-total__meta" id="out-meta"></span>
+      </div>
+      <dl class="cbm-stats" id="out-stats"></dl>
+      <div class="cbm-ship">
+        <div class="cbm-ship__head">
+          <span class="cbm-mode" id="out-mode">LCL</span>
+          <span class="cbm-ship__label" id="out-mode-label"></span>
+        </div>
+        <div class="cbm-bar" id="out-bar" aria-hidden="true"><div class="cbm-bar__fill" id="out-fill"></div></div>
+        <div class="cbm-scale" id="out-scale" aria-hidden="true"></div>
+        <p class="cbm-ship__msg" id="out-msg"></p>
+      </div>
+    </div>
+  </div>
+
+  <a class="sf-cta" data-track href="https://sourcefoshan.com/start-your-project/">Send your packing list for a loading review <span aria-hidden="true">→</span></a>
+
+  <p class="sf-fine">Estimates for planning. Air volumetric weight uses the IATA divisor of 6,000 cm³/kg; sea LCL is billed per revenue ton, the greater of m³ and tonnes. Container fit depends on the real packing list.</p>
+
+  <div class="sf-foot">
+    <span><span class="sf-mark" aria-hidden="true"></span>Free tool by <a data-track href="https://sourcefoshan.com/">Source Foshan</a>, furniture sourcing agent in Foshan</span>
+    <a href="https://tools.sourcefoshan.com/widgets" target="_blank" rel="noopener">Add to your site</a>
+  </div>
+</main>
+</body>
+</html>
