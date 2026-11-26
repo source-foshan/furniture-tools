@@ -4,6 +4,7 @@
 
 Publisher: Source Foshan (https://sourcefoshan.com/)
 MCP Registry name: com.sourcefoshan/furniture-tools
+Source code (MIT; HS data CC BY 4.0): https://github.com/source-foshan/furniture-tools
 
 ## Use from an AI assistant (MCP)
 

@@ -3,12 +3,25 @@
   "name": "com.sourcefoshan/furniture-tools",
   "title": "Source Foshan Furniture Tools",
   "description": "Furniture HS code finder (HS 2022, headings 9401–9404) and shipping CBM and container calculator.",
-  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/source-foshan/furniture-tools",
+    "source": "github"
+  },
+  "version": "1.0.1",
   "websiteUrl": "https://tools.sourcefoshan.com/widgets",
   "icons": [
-    { "src": "https://tools.sourcefoshan.com/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+    {
+      "src": "https://tools.sourcefoshan.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
   ],
   "remotes": [
-    { "type": "streamable-http", "url": "https://tools.sourcefoshan.com/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://tools.sourcefoshan.com/mcp"
+    }
   ]
 }

@@ -138,7 +138,7 @@ await check('MCP Registry proof file is served as the registry fetches it', asyn
 });
 
 await check('llms.txt, robots.txt and sitemap.xml are published', async () => {
-  for (const [path, needle] of [['/llms.txt', 'com.sourcefoshan/furniture-tools'], ['/robots.txt', 'Sitemap:'], ['/sitemap.xml', '/widgets']]) {
+  for (const [path, needle] of [['/llms.txt', 'com.sourcefoshan/furniture-tools'], ['/llms.txt', 'github.com/source-foshan/furniture-tools'], ['/widgets', 'github.com/source-foshan/furniture-tools'], ['/robots.txt', 'Sitemap:'], ['/sitemap.xml', '/widgets']]) {
     const res = await fetch(base + path);
     assert.equal(res.status, 200, path);
     assert.ok((await res.text()).includes(needle), path);

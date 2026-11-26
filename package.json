@@ -1,6 +1,6 @@
 {
   "name": "sourcefoshan-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Furniture HS code finder and shipping CBM / container calculator: remote MCP server, JSON API and embeddable widgets on Cloudflare Workers",
   "license": "MIT",
