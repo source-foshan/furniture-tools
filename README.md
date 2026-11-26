@@ -20,6 +20,7 @@ No key, no sign-up. 60 requests per minute per IP.
 | Widgets and embed codes | https://tools.sourcefoshan.com/widgets |
 | OpenAPI 3.1 | https://tools.sourcefoshan.com/openapi.json |
 | Summary for AI crawlers | https://tools.sourcefoshan.com/llms.txt |
+| Privacy policy | https://tools.sourcefoshan.com/privacy |
 
 ### MCP tools
 

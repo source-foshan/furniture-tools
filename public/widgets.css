@@ -52,3 +52,12 @@ body.page { padding: 0; background: #fff; font-size: 16px; }
 
 .page-foot { background: var(--paper); padding: 28px 0; margin-top: 24px; font-size: 14px; color: var(--muted); }
 .page-foot p { margin: 0; max-width: 760px; }
+
+/* Privacy page */
+.legal { max-width: 760px; margin-left: max(20px, (100% - 1120px) / 2); padding: 8px 0 48px; }
+.legal h2 { font: 800 22px/1.2 var(--heading); letter-spacing: -.01em; margin: 36px 0 10px; }
+.legal h2:first-child { margin-top: 16px; }
+.legal p, .legal li { color: var(--ink); line-height: 1.6; }
+.legal p { margin: 0 0 12px; }
+.legal ul { margin: 0 0 12px; padding-left: 20px; }
+.legal li { margin-bottom: 8px; }

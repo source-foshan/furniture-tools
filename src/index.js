@@ -89,6 +89,7 @@ function home(origin) {
     rate_limit: RATE_LIMIT_TEXT,
     hs_dataset: HS_DATASET,
     source_code: 'https://github.com/source-foshan/furniture-tools',
+    privacy_policy: `${origin}/privacy`,
     website: SITE
   };
 }
